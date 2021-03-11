@@ -12,15 +12,18 @@ import Project from "./pages/Project";
 class App extends React.Component {
   render(){
     return (
-      <Router>
-        <div>
-          {/* <Header /> */}
-          <Route exact path="/" component={About} />
-          <Route exact path="/project" component={Project} />
-          <Route path="/contact" component={Contact} />
-          {/* <Footer /> */}
+      // <Router>
+      //   <div>
+      //     {/* <Header /> */}
+      //     <Route exact path="/" component={About} />
+      //     <Route exact path="/project" component={Project} />
+      //     <Route path="/contact" component={Contact} />
+      //     {/* <Footer /> */}
+      //   </div>
+      // </Router>
+      <div>
+        TEST
         </div>
-      </Router>
     );
   }
 }
