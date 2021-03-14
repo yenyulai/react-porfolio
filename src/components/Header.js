@@ -13,7 +13,7 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav mt-2 mt-lg-0 ml-auto">
           <li className="nav-item">
-            <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/react-porfolio" className={window.location.pathname === "/react-porfolio" ? "nav-link active" : "nav-link"}>
             About</Link>
         </li>
         <li className="nav-item">
